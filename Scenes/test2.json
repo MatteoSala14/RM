@@ -1,0 +1,48 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.01,
+        "Zup": false,
+        "RepoPath": ""
+    },
+    "scene": [
+        "building",
+        "UR_robot"
+    ],
+    "assets": [
+        {
+            "id": "building",
+            "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcBuilding",
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "id": "UR_robot",
+            "type": "https://w3id.org/ontoeng/factory#Robot",
+            "representations": [
+                {
+                    "file": "UR.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        }
+    ]
+}
