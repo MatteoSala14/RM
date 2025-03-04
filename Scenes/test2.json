@@ -7,7 +7,7 @@
     "scene": [
         "building",
         "UR_Robot",
-        "Robot_base",
+        "",
         "Conveyor_In",
         "Conveyor_Out"
     ],
@@ -31,7 +31,7 @@
             "type": "https://w3id.org/ontoeng/factory#Robot",
             "representations": [
                 {
-                    "file": "UR.glb",
+                    "file": "Cobot.glb",
                     "unit": 1
                 }
             ],
@@ -39,26 +39,6 @@
                 35,
                 0,
                 476
-            ],
-            "rotation": [
-                0,
-                0,
-                0
-            ],
-            "placementRelTo": "building"
-        },
-        {
-            "id": "Robot_base",
-            "representations": [
-                {
-                    "file": "Robot_base.glb",
-                    "unit": 1
-                }
-            ],
-            "position": [
-                0,
-                0,
-                0
             ],
             "rotation": [
                 0,
