@@ -36,13 +36,13 @@
                 }
             ],
             "position": [
-                33,
-                0,
-                480
+                -20,
+                84.5,
+                477
             ],
             "rotation": [
                 0,
-                0,
+                1.57,
                 0
             ],
             "placementRelTo": "building"
@@ -56,13 +56,13 @@
                 }
             ],
             "position": [
+                -46,
                 0,
-                0,
-                0
+                477
             ],
             "rotation": [
                 0,
-                0,
+                1.57,
                 0
             ],
             "placementRelTo": "building"
@@ -72,7 +72,7 @@
             "type": "https://w3id.org/ontoeng/factory#Conveyor",
             "representations": [
                 {
-                    "file": "Conveyor.glb",
+                    "file": "Conveyor_high.glb",
                     "unit": 1
                 }
             ],
@@ -93,14 +93,14 @@
             "type": "https://w3id.org/ontoeng/factory#Conveyor",
             "representations": [
                 {
-                    "file": "Conveyor.glb",
+                    "file": "Conveyor_high.glb",
                     "unit": 1
                 }
             ],
             "position": [
-                193,
+                207,
                 0,
-                467
+                466
             ],
             "rotation": [
                 0,
