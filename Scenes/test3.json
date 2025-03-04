@@ -1,0 +1,114 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.01,
+        "Zup": false,
+        "RepoPath": ""
+    },
+    "scene": [
+        "building",
+        "Robot",
+        "Robot_rail",
+        "Conveyor_In",
+        "Conveyor_Out"
+    ],
+    "assets": [
+        {
+            "id": "building",
+            "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcBuilding",
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "id": "Robot",
+            "type": "https://w3id.org/ontoeng/factory#Robot",
+            "representations": [
+                {
+                    "file": "Robot_7dof.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                33,
+                0,
+                480
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Robot_rail",
+            "representations": [
+                {
+                    "file": "Robot_rail.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Conveyor_In",
+            "type": "https://w3id.org/ontoeng/factory#Conveyor",
+            "representations": [
+                {
+                    "file": "Conveyor.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                26,
+                0,
+                315
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Conveyor_Out",
+            "type": "https://w3id.org/ontoeng/factory#Conveyor",
+            "representations": [
+                {
+                    "file": "Conveyor.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                193,
+                0,
+                467
+            ],
+            "rotation": [
+                0,
+                4,
+                71,
+                0
+            ],
+            "placementRelTo": "building"
+        }
+    ]
+}
