@@ -104,8 +104,7 @@
             ],
             "rotation": [
                 0,
-                4,
-                71,
+                4.71,
                 0
             ],
             "placementRelTo": "building"
