@@ -11,7 +11,9 @@
         "Conveyor_In",
         "Conveyor_Out",
         "Grid_cameras",
-        "Grid_Control"
+        "Grid_Control",
+        "Sensor",
+        "Receiver"
     ],
     "assets": [
         {
@@ -33,7 +35,7 @@
             "type": "https://w3id.org/ontoeng/factory#Robot",
             "representations": [
                 {
-                    "file": "7dofURRobot.glb",
+                    "file": "7dofURRobot_large.glb",
                     "unit": 1
                 }
             ],
@@ -147,6 +149,46 @@
             "rotation": [
                 0,
                 4.71,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Sensor",
+            "representations": [
+                {
+                    "file": "Sensor2.glb",
+                    "unit":
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Receiver",
+            "representations": [
+                {
+                    "file": "Receiver.glb",
+                    "unit":
+                }
+            ],
+            "position": [
+                2,
+                2,
+                2
+            ],
+            "rotation": [
+                0,
+                0,
                 0
             ],
             "placementRelTo": "building"
