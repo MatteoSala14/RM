@@ -40,7 +40,7 @@
                 }
             ],
             "position": [
-                -20,
+                -103,
                 84.5,
                 477
             ],
@@ -157,7 +157,7 @@
             "id": "Sensor",
             "representations": [
                 {
-                    "file": "Sensor2.glb",
+                    "file": "Sensor.glb",
                     "unit": 1
                 }
             ],
