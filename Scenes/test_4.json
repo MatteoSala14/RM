@@ -11,8 +11,7 @@
         "Conveyor_In",
         "Conveyor_Out",
         "Grid_cameras",
-        "Grid_Hole",
-        "Control_Panel"
+        "Grid_Control"
     ],
     "assets": [
         {
@@ -121,22 +120,22 @@
                 }
             ],
             "position": [
-                0,
-                0,
-                0
+                150,
+                166,
+                618
             ],
             "rotation": [
                 0,
-                0,
-                0
+                4.71,
+                3.14
             ],
             "placementRelTo": "building"
         },
         {
-            "id": "Grid_Hole",
+            "id": "Grid_Control",
             "representations": [
                 {
-                    "file": "Grid_Hole.glb",
+                    "file": "Grid_control.glb",
                     "unit": 1
                 }
             ],
@@ -144,46 +143,6 @@
                 10,
                 10,
                 10
-            ],
-            "rotation": [
-                0,
-                0,
-                0
-            ],
-            "placementRelTo": "building"
-        },
-        {
-            "id": "Control_Panel",
-            "representations": [
-                {
-                    "file": "Control_panel.glb",
-                    "unit": 1
-                }
-            ],
-            "position": [
-                50,
-                50,
-                50
-            ],
-            "rotation": [
-                0,
-                0,
-                0
-            ],
-            "placementRelTo": "building"
-        },
-        {
-            "id": "Signal_pole",
-            "representations": [
-                {
-                    "file": "Signal_pole.glb",
-                    "unit": 1
-                }
-            ],
-            "position": [
-                70,
-                70,
-                70
             ],
             "rotation": [
                 0,
