@@ -145,14 +145,14 @@
                 }
             ],
             "position": [
-                0,
-                0,
-                80
+                -58,
+                205,
+                390
             ],
             "rotation": [
                 0,
-                0,
-                0
+                1.57,
+                3.14
             ],
             "placementRelTo": "building"
         },
@@ -165,13 +165,13 @@
                 }
             ],
             "position": [
-                -51,
+                105,
                 0,
-                267
+                325
             ],
             "rotation": [
                 0,
-                4.71,
+                3.14,
                 0
             ],
             "placementRelTo": "building"
@@ -226,7 +226,7 @@
             ],
             "position": [
                 -58,
-                0,
+                6,
                 565
             ],
             "rotation": [
@@ -245,13 +245,13 @@
                 }
             ],
             "position": [
-                0,
-                0,
-                0
+                -190,
+                6,
+                390
             ],
             "rotation": [
                 0,
-                0,
+                4.71,
                 0
             ],
             "placementRelTo": "building"
