@@ -18,7 +18,7 @@
         "Receiver",
         "Bin_body",
         "Bin_crossbar",
-        "Bin_GuideBushing"
+        "Bin_guideBushing"
     ],
     "assets": [
         {
@@ -267,19 +267,19 @@
                 }
             ],
             "position": [
-                10,
-                0,
-                0
+                -55,
+                90.5,
+                565
             ],
             "rotation": [
                 0,
-                0,
-                0
+                1.57,
+                6.11
             ],
             "placementRelTo": "building"
         },
         {
-            "id": "Bin_GuideBushing",
+            "id": "Bin_guideBushing",
             "representations": [
                 {
                     "file": "Bin_with_guideBushing.glb",
@@ -287,14 +287,14 @@
                 }
             ],
             "position": [
-                20,
-                0,
-                0
+                -88,
+                90.5,
+                565
             ],
             "rotation": [
                 0,
-                0,
-                0
+                1.57,
+                6.11
             ],
             "placementRelTo": "building"
         }
