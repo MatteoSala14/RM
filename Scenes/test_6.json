@@ -247,14 +247,14 @@
                 }
             ],
             "position": [
-                0,
-                0,
-                0
+                -22,
+                90.5,
+                565
             ],
             "rotation": [
                 0,
-                0,
-                0
+                1.57,
+                6.11
             ],
             "placementRelTo": "building"
         },
