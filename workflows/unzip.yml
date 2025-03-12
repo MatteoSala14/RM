@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Unzip file
-        run: unzip Model/Grid_cameras.zip -d Model
+        run: unzip -o Model/Grid_cameras.zip -d Model
