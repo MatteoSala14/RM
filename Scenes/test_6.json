@@ -1,0 +1,218 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.01,
+        "Zup": false,
+        "RepoPath": ""
+    },
+    "scene": [
+        "building",
+        "Robot",
+        "Robot_rail",
+        "Conveyor_In",
+        "Conveyor_Out",
+        "Grid_cameras_1",
+        "Grid_cameras_2",
+        "Grid_Control",
+        "Sensor",
+        "Receiver"
+    ],
+    "assets": [
+        {
+            "id": "building",
+            "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcBuilding",
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "id": "Robot",
+            "type": "https://w3id.org/ontoeng/factory#Robot",
+            "representations": [
+                {
+                    "file": "UR16e.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -103,
+                84.5,
+                477
+            ],
+            "rotation": [
+                0,
+                1.57,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Robot_rail",
+            "representations": [
+                {
+                    "file": "Rail.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -99,
+                0,
+                477
+            ],
+            "rotation": [
+                0,
+                1.57,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Conveyor_In",
+            "type": "https://w3id.org/ontoeng/factory#Conveyor",
+            "representations": [
+                {
+                    "file": "Conveyor_high.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                26,
+                0,
+                308
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Conveyor_Out",
+            "type": "https://w3id.org/ontoeng/factory#Conveyor",
+            "representations": [
+                {
+                    "file": "Conveyor_high.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                26,
+                0,
+                508
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Grid_cameras_1",
+            "representations": [
+                {
+                    "file": "Grid_cameras_plus_bin_structure.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -190,
+                205,
+                565
+            ],
+            "rotation": [
+                0,
+                4.71,
+                3.14
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Grid_cameras_2",
+            "representations": [
+                {
+                    "file": "Grid_cameras_plus_bin_structure.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -58,
+                205,
+                390
+            ],
+            "rotation": [
+                0,
+                1.57,
+                3.14
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Grid_Control",
+            "representations": [
+                {
+                    "file": "Grid_control.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                105,
+                0,
+                325
+            ],
+            "rotation": [
+                0,
+                3.14,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Sensor",
+            "representations": [
+                {
+                    "file": "Sensor.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                21.65,
+                68.6,
+                490
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Receiver",
+            "representations": [
+                {
+                    "file": "Receiver.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                54.85,
+                68.15,
+                490
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        }
+    ]
+}
