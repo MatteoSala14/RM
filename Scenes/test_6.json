@@ -15,7 +15,10 @@
         "Grid_Control",
         "Auxiliary_position",
         "Sensor",
-        "Receiver"
+        "Receiver",
+        "Bin_body",
+        "Bin_crossbar",
+        "Bin_GuideBushing"
     ],
     "assets": [
         {
@@ -227,6 +230,66 @@
                 88.85,
                 68.15,
                 490
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_body",
+            "representations": [
+                {
+                    "file": "Bin_with_body.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_crossbar",
+            "representations": [
+                {
+                    "file": "Bin_with_crossbar.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                10,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_GuideBushing",
+            "representations": [
+                {
+                    "file": "Bin_with_guideBushing.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                20,
+                0,
+                0
             ],
             "rotation": [
                 0,
