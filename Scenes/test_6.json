@@ -13,6 +13,7 @@
         "Grid_cameras_1",
         "Grid_cameras_2",
         "Grid_Control",
+        "Auxiliary_position",
         "Sensor",
         "Receiver"
     ],
@@ -170,6 +171,26 @@
             "rotation": [
                 0,
                 3.14,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Auxiliary_position",
+            "representations": [
+                {
+                    "file": "Auxiliary_position.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
                 0
             ],
             "placementRelTo": "building"
