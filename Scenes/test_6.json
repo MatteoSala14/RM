@@ -36,7 +36,7 @@
             "type": "https://w3id.org/ontoeng/factory#Robot",
             "representations": [
                 {
-                    "file": "UR16e.glb",
+                    "file": "UR10e.glb",
                     "unit": 1
                 }
             ],
