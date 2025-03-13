@@ -43,6 +43,7 @@
         "Bin_plug_1",
         "Bin_plug_2",
         "Camera_Deposit",
+        "Kit_RFID_reader",
         "Kit_empty_1",
         "Kit_empty_2"
     ],
@@ -793,13 +794,33 @@
                 }
             ],
             "position": [
-                100,
+                92,
                 0,
-                462
+                468
             ],
             "rotation": [
                 0,
                 4.71,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Kit_RFID_reader",
+            "representations": [
+                {
+                    "file": "RFID_reader.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
                 0
             ],
             "placementRelTo": "building"
@@ -813,13 +834,13 @@
                 }
             ],
             "position": [
-                0,
-                0,
-                0
+                61,
+                74,
+                490
             ],
             "rotation": [
                 0,
-                0,
+                4.71,
                 0
             ],
             "placementRelTo": "building"
@@ -833,13 +854,13 @@
                 }
             ],
             "position": [
-                0,
-                0,
-                0
+                61,
+                74,
+                400
             ],
             "rotation": [
                 0,
-                0,
+                4.71,
                 0
             ],
             "placementRelTo": "building"
