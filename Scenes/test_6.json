@@ -145,7 +145,7 @@
             "id": "Grid_cameras_1",
             "representations": [
                 {
-                    "file": "Grid_cameras_plus_bin_structure.glb",
+                    "file": "Camera_grid_plus_bin_structure_RFID_reader_Camera.glb",
                     "unit": 1
                 }
             ],
@@ -165,7 +165,7 @@
             "id": "Grid_cameras_2",
             "representations": [
                 {
-                    "file": "Grid_cameras_plus_bin_structure.glb",
+                    "file": "Camera_grid_plus_bin_structure_RFID_reader_Camera.glb",
                     "unit": 1
                 }
             ],
