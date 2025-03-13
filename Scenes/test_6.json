@@ -745,7 +745,7 @@
             "id": "Bin_plug_1",
             "representations": [
                 {
-                    "file": "Bin_with_plug_tag",
+                    "file": "Bin_with_plug_tag.glb",
                     "unit": 1
                 }
             ],
@@ -765,7 +765,7 @@
             "id": "Bin_plug_2",
             "representations": [
                 {
-                    "file": "Bin_with_plug_tag",
+                    "file": "Bin_with_plug_tag.glb",
                     "unit": 1
                 }
             ],
