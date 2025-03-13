@@ -41,7 +41,8 @@
         "Bin_pillar_2",
         "Bin_pilllar_3",
         "Bin_plug_1",
-        "Bin_plug_2"
+        "Bin_plug_2",
+        "Camera_Deposit"
     ],
     "assets": [
         {
@@ -778,6 +779,26 @@
                 0,
                 4.71,
                 6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Camera_Deposit",
+            "representations": [
+                {
+                    "file": "Camera_deposit_with_structure.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
             ],
             "placementRelTo": "building"
         }
