@@ -42,7 +42,9 @@
         "Bin_pilllar_3",
         "Bin_plug_1",
         "Bin_plug_2",
-        "Camera_Deposit"
+        "Camera_Deposit",
+        "Kit_empty_1",
+        "Kit_empty_2"
     ],
     "assets": [
         {
@@ -787,6 +789,46 @@
             "representations": [
                 {
                     "file": "Camera_deposit_with_structure.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                100,
+                0,
+                462
+            ],
+            "rotation": [
+                0,
+                4.71,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Kit_empty_1",
+            "representations": [
+                {
+                    "file": "Kit_empty.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Kit_empty_2",
+            "representations": [
+                {
+                    "file": "Kit_empty.glb",
                     "unit": 1
                 }
             ],
