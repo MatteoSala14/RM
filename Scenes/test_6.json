@@ -33,7 +33,15 @@
         "Bin_screw_1",
         "Bin_screw_2",
         "Bin_screw_3",
-        "Bin_screw_4"
+        "Bin_screw_4",
+        "Bin_M20nuts_1",
+        "Bin_M20nuts_2",
+        "Bin_M12nuts_1",
+        "Bin_pillar_1",
+        "Bin_pillar_2",
+        "Bin_pilllar_3",
+        "Bin_plug_1",
+        "Bin_plug_2"
     ],
     "assets": [
         {
@@ -283,8 +291,8 @@
             ],
             "position": [
                 -22,
-                90.5,
-                565
+                97.75,
+                606
             ],
             "rotation": [
                 0,
@@ -303,8 +311,8 @@
             ],
             "position": [
                 -22,
-                90.5,
-                565
+                105,
+                647
             ],
             "rotation": [
                 0,
@@ -343,8 +351,8 @@
             ],
             "position": [
                 -55,
-                90.5,
-                565
+                97.75,
+                606
             ],
             "rotation": [
                 0,
@@ -383,8 +391,8 @@
             ],
             "position": [
                 -88,
-                90.5,
-                565
+                97.75,
+                606
             ],
             "rotation": [
                 0,
@@ -423,8 +431,8 @@
             ],
             "position": [
                 -121,
-                90.5,
-                565
+                97.75,
+                606
             ],
             "rotation": [
                 0,
@@ -443,8 +451,8 @@
             ],
             "position": [
                 -121,
-                90.5,
-                565
+                105,
+                647
             ],
             "rotation": [
                 0,
@@ -483,8 +491,8 @@
             ],
             "position": [
                 -154,
-                90.5,
-                565
+                97.75,
+                606
             ],
             "rotation": [
                 0,
@@ -523,8 +531,8 @@
             ],
             "position": [
                 -187,
-                90.5,
-                565
+                97.75,
+                606
             ],
             "rotation": [
                 0,
@@ -542,13 +550,13 @@
                 }
             ],
             "position": [
-                -24,
-                97,
-                345
+                -52,
+                90,
+                384
             ],
             "rotation": [
                 0,
-                1.57,
+                4.71,
                 0.17
             ],
             "placementRelTo": "building"
@@ -562,13 +570,13 @@
                 }
             ],
             "position": [
-                -24,
-                97,
-                345
+                -52,
+                97.25,
+                343
             ],
             "rotation": [
                 0,
-                1.57,
+                4.71,
                 0.17
             ],
             "placementRelTo": "building"
@@ -582,13 +590,13 @@
                 }
             ],
             "position": [
-                -24,
-                97,
-                345
+                -52,
+                104.5,
+                302
             ],
             "rotation": [
                 0,
-                1.57,
+                4.71,
                 0.17
             ],
             "placementRelTo": "building"
@@ -602,13 +610,173 @@
                 }
             ],
             "position": [
-                -24,
-                97,
-                345
+                -52,
+                111.75,
+                261
             ],
             "rotation": [
                 0,
-                1.57,
+                4.71,
+                0.17
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_M20nuts_1",
+            "representations": [
+                {
+                    "file": "Bin_with_M20nuts_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -85,
+                90,
+                384
+            ],
+            "rotation": [
+                0,
+                4.71,
+                0.17
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_M20nuts_2",
+            "representations": [
+                {
+                    "file": "Bin_with_M20nuts_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -85,
+                97.25,
+                343
+            ],
+            "rotation": [
+                0,
+                4.71,
+                0.17
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_M12nuts_1",
+            "representations": [
+                {
+                    "file": "Bin_with_M12nuts_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -108,
+                90,
+                384
+            ],
+            "rotation": [
+                0,
+                4.71,
+                0.17
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_pillar_1",
+            "representations": [
+                {
+                    "file": "Bin_with_pillar_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -141,
+                90,
+                384
+            ],
+            "rotation": [
+                0,
+                4.71,
+                0.17
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_pillar_2",
+            "representations": [
+                {
+                    "file": "Bin_with_pillar_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -141,
+                97.25,
+                343
+            ],
+            "rotation": [
+                0,
+                4.71,
+                0.17
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_pilllar_3",
+            "representations": [
+                {
+                    "file": "Bin_with_pillar_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -141,
+                104.5,
+                302
+            ],
+            "rotation": [
+                0,
+                4.71,
+                0.17
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_plug_1",
+            "representations": [
+                {
+                    "file": "Bin_with_plug_tag",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -174,
+                90,
+                384
+            ],
+            "rotation": [
+                0,
+                4.71,
+                0.17
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_plug_2",
+            "representations": [
+                {
+                    "file": "Bin_with_plug_tag",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -174,
+                97.25,
+                343
+            ],
+            "rotation": [
+                0,
+                4.71,
                 0.17
             ],
             "placementRelTo": "building"
