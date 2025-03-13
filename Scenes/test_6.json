@@ -16,13 +16,24 @@
         "Auxiliary_position",
         "Sensor",
         "Receiver",
-        "Bin_body",
-        "Bin_crossbar",
-        "Bin_guideBushing",
-        "Bin_spring",
-        "Bin_springSeatLower",
-        "Bin_springSeatUpper",
-        "Bin_screw"
+        "Bin_body_1",
+        "Bin_body_2",
+        "Bin_body_3",
+        "Bin_crossbar_1",
+        "Bin_crossbar_2",
+        "Bin_guideBushing_1",
+        "Bin_guideBushing_2",
+        "Bin_spring_1",
+        "Bin_spring_2",
+        "Bin_spring_3",
+        "Bin_springSeatLower_1",
+        "Bin_springSeatLower_2",
+        "Bin_springSeatUpper_1",
+        "Bin_springSeatUpper_2",
+        "Bin_screw_1",
+        "Bin_screw_2",
+        "Bin_screw_3",
+        "Bin_screw_4"
     ],
     "assets": [
         {
@@ -243,10 +254,10 @@
             "placementRelTo": "building"
         },
         {
-            "id": "Bin_body",
+            "id": "Bin_body_1",
             "representations": [
                 {
-                    "file": "Bin_with_body.glb",
+                    "file": "Bin_with_body_tag.glb",
                     "unit": 1
                 }
             ],
@@ -263,10 +274,50 @@
             "placementRelTo": "building"
         },
         {
-            "id": "Bin_crossbar",
+            "id": "Bin_body_2",
             "representations": [
                 {
-                    "file": "Bin_with_crossbar.glb",
+                    "file": "Bin_with_body_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -22,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_body_3",
+            "representations": [
+                {
+                    "file": "Bin_with_body_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -22,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_crossbar_1",
+            "representations": [
+                {
+                    "file": "Bin_with_crossbar_tag.glb",
                     "unit": 1
                 }
             ],
@@ -283,10 +334,30 @@
             "placementRelTo": "building"
         },
         {
-            "id": "Bin_guideBushing",
+            "id": "Bin_crossbar_2",
             "representations": [
                 {
-                    "file": "Bin_with_guideBushing.glb",
+                    "file": "Bin_with_crossbar_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -55,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_guideBushing_1",
+            "representations": [
+                {
+                    "file": "Bin_with_guideBushing_tag.glb",
                     "unit": 1
                 }
             ],
@@ -303,10 +374,30 @@
             "placementRelTo": "building"
         },
         {
-            "id": "Bin_spring",
+            "id": "Bin_guideBushing_2",
             "representations": [
                 {
-                    "file": "Bin_with_spring.glb",
+                    "file": "Bin_with_guideBushing_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -88,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_spring_1",
+            "representations": [
+                {
+                    "file": "Bin_with_spring_tag.glb",
                     "unit": 1
                 }
             ],
@@ -323,10 +414,50 @@
             "placementRelTo": "building"
         },
         {
-            "id": "Bin_springSeatLower",
+            "id": "Bin_spring_2",
             "representations": [
                 {
-                    "file": "Bin_with_springSeatLower.glb",
+                    "file": "Bin_with_spring_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -121,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_spring_3",
+            "representations": [
+                {
+                    "file": "Bin_with_spring_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -121,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_springSeatLower_1",
+            "representations": [
+                {
+                    "file": "Bin_with_springSeatLower_tag.glb",
                     "unit": 1
                 }
             ],
@@ -343,10 +474,30 @@
             "placementRelTo": "building"
         },
         {
-            "id": "Bin_springSeatUpper",
+            "id": "Bin_springSeatLower_2",
             "representations": [
                 {
-                    "file": "Bin_with_springSeatUpper.glb",
+                    "file": "Bin_with_springSeatLower_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -154,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_springSeatUpper_1",
+            "representations": [
+                {
+                    "file": "Bin_with_springSeatUpper_tag.glb",
                     "unit": 1
                 }
             ],
@@ -363,10 +514,90 @@
             "placementRelTo": "building"
         },
         {
-            "id": "Bin_screw",
+            "id": "Bin_springSeatUpper_2",
             "representations": [
                 {
-                    "file": "Bin_with_screw.glb",
+                    "file": "Bin_with_springSeatUpper_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -187,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_screw_1",
+            "representations": [
+                {
+                    "file": "Bin_with_screw_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -24,
+                97,
+                345
+            ],
+            "rotation": [
+                0,
+                1.57,
+                0.17
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_screw_2",
+            "representations": [
+                {
+                    "file": "Bin_with_screw_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -24,
+                97,
+                345
+            ],
+            "rotation": [
+                0,
+                1.57,
+                0.17
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_screw_3",
+            "representations": [
+                {
+                    "file": "Bin_with_screw_tag.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -24,
+                97,
+                345
+            ],
+            "rotation": [
+                0,
+                1.57,
+                0.17
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_screw_4",
+            "representations": [
+                {
+                    "file": "Bin_with_screw_tag.glb",
                     "unit": 1
                 }
             ],
