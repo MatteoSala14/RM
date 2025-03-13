@@ -814,13 +814,13 @@
                 }
             ],
             "position": [
-                0,
-                0,
-                0
+                92,
+                71.5,
+                483
             ],
             "rotation": [
                 0,
-                0,
+                4.71,
                 0
             ],
             "placementRelTo": "building"
