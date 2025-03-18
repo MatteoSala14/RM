@@ -1,0 +1,869 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.01,
+        "Zup": false,
+        "RepoPath": ""
+    },
+    "scene": [
+        "building",
+        "Robot",
+        "Robot_rail",
+        "Conveyor_In",
+        "Conveyor_Out",
+        "Grid_cameras_1",
+        "Grid_cameras_2",
+        "Grid_Control",
+        "Auxiliary_position",
+        "Sensor",
+        "Receiver",
+        "Bin_body_1",
+        "Bin_body_2",
+        "Bin_body_3",
+        "Bin_crossbar_1",
+        "Bin_crossbar_2",
+        "Bin_guideBushing_1",
+        "Bin_guideBushing_2",
+        "Bin_spring_1",
+        "Bin_spring_2",
+        "Bin_spring_3",
+        "Bin_springSeatLower_1",
+        "Bin_springSeatLower_2",
+        "Bin_springSeatUpper_1",
+        "Bin_springSeatUpper_2",
+        "Bin_screw_1",
+        "Bin_screw_2",
+        "Bin_screw_3",
+        "Bin_screw_4",
+        "Bin_M20nuts_1",
+        "Bin_M20nuts_2",
+        "Bin_M12nuts_1",
+        "Bin_pillar_1",
+        "Bin_pillar_2",
+        "Bin_pilllar_3",
+        "Bin_plug_1",
+        "Bin_plug_2",
+        "Camera_Deposit",
+        "Kit_RFID_reader",
+        "Kit_empty_1",
+        "Kit_empty_2"
+    ],
+    "assets": [
+        {
+            "id": "building",
+            "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcBuilding",
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "id": "Robot",
+            "type": "https://w3id.org/ontoeng/factory#Robot",
+            "representations": [
+                {
+                    "file": "UR10e.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -20,
+                84.5,
+                477
+            ],
+            "rotation": [
+                0,
+                4.71,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Robot_rail",
+            "representations": [
+                {
+                    "file": "Rail.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -99,
+                0,
+                477
+            ],
+            "rotation": [
+                0,
+                1.57,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Conveyor_In",
+            "type": "https://w3id.org/ontoeng/factory#Conveyor",
+            "representations": [
+                {
+                    "file": "Conveyor_high.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                60,
+                0,
+                308
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Conveyor_Out",
+            "type": "https://w3id.org/ontoeng/factory#Conveyor",
+            "representations": [
+                {
+                    "file": "Conveyor_high.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                60,
+                0,
+                508
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Grid_cameras_1",
+            "representations": [
+                {
+                    "file": "Camera_grid_plus_bin_structure_RFID_reader_Camera.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -185,
+                6,
+                600
+            ],
+            "rotation": [
+                0,
+                3.14,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Grid_cameras_2",
+            "representations": [
+                {
+                    "file": "Camera_grid_plus_bin_structure_RFID_reader_Camera.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -55,
+                6,
+                350
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Grid_Control",
+            "representations": [
+                {
+                    "file": "Grid_control.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                139,
+                0,
+                325
+            ],
+            "rotation": [
+                0,
+                3.14,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Auxiliary_position",
+            "representations": [
+                {
+                    "file": "Auxiliary_position.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -5,
+                93,
+                410
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Sensor",
+            "representations": [
+                {
+                    "file": "Sensor.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                55.65,
+                68.6,
+                490
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Receiver",
+            "representations": [
+                {
+                    "file": "Receiver.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                88.85,
+                68.15,
+                490
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_body_1",
+            "representations": [
+                {
+                    "file": "Bin_with_body_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -22,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_body_2",
+            "representations": [
+                {
+                    "file": "Bin_with_body_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -22,
+                97.75,
+                606
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_body_3",
+            "representations": [
+                {
+                    "file": "Bin_with_body_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -22,
+                105,
+                647
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_crossbar_1",
+            "representations": [
+                {
+                    "file": "Bin_with_crossbar_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -55,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_crossbar_2",
+            "representations": [
+                {
+                    "file": "Bin_with_crossbar_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -55,
+                97.75,
+                606
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_guideBushing_1",
+            "representations": [
+                {
+                    "file": "Bin_with_guideBushing_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -88,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_guideBushing_2",
+            "representations": [
+                {
+                    "file": "Bin_with_guideBushing_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -88,
+                97.75,
+                606
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_spring_1",
+            "representations": [
+                {
+                    "file": "Bin_with_spring_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -121,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_spring_2",
+            "representations": [
+                {
+                    "file": "Bin_with_spring_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -121,
+                97.75,
+                606
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_spring_3",
+            "representations": [
+                {
+                    "file": "Bin_with_spring_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -121,
+                105,
+                647
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_springSeatLower_1",
+            "representations": [
+                {
+                    "file": "Bin_with_springSeatLower_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -154,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_springSeatLower_2",
+            "representations": [
+                {
+                    "file": "Bin_with_springSeatLower_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -154,
+                97.75,
+                606
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_springSeatUpper_1",
+            "representations": [
+                {
+                    "file": "Bin_with_springSeatUpper_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -187,
+                90.5,
+                565
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_springSeatUpper_2",
+            "representations": [
+                {
+                    "file": "Bin_with_springSeatUpper_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -187,
+                97.75,
+                606
+            ],
+            "rotation": [
+                0,
+                1.57,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_screw_1",
+            "representations": [
+                {
+                    "file": "Bin_with_screw_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -52,
+                90,
+                384
+            ],
+            "rotation": [
+                0,
+                4.71,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_screw_2",
+            "representations": [
+                {
+                    "file": "Bin_with_screw_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -52,
+                97.25,
+                343
+            ],
+            "rotation": [
+                0,
+                4.71,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_screw_3",
+            "representations": [
+                {
+                    "file": "Bin_with_screw_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -52,
+                104.5,
+                302
+            ],
+            "rotation": [
+                0,
+                4.71,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_screw_4",
+            "representations": [
+                {
+                    "file": "Bin_with_screw_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -52,
+                111.75,
+                261
+            ],
+            "rotation": [
+                0,
+                4.71,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_M20nuts_1",
+            "representations": [
+                {
+                    "file": "Bin_with_M20nuts_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -85,
+                90,
+                384
+            ],
+            "rotation": [
+                0,
+                4.71,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_M20nuts_2",
+            "representations": [
+                {
+                    "file": "Bin_with_M20nuts_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -85,
+                97.25,
+                343
+            ],
+            "rotation": [
+                0,
+                4.71,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_M12nuts_1",
+            "representations": [
+                {
+                    "file": "Bin_with_M12nuts_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -118,
+                90,
+                384
+            ],
+            "rotation": [
+                0,
+                4.71,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_pillar_1",
+            "representations": [
+                {
+                    "file": "Bin_with_pillar_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -151,
+                90,
+                384
+            ],
+            "rotation": [
+                0,
+                4.71,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_pillar_2",
+            "representations": [
+                {
+                    "file": "Bin_with_pillar_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -151,
+                97.25,
+                343
+            ],
+            "rotation": [
+                0,
+                4.71,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_pilllar_3",
+            "representations": [
+                {
+                    "file": "Bin_with_pillar_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -151,
+                104.5,
+                302
+            ],
+            "rotation": [
+                0,
+                4.71,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_plug_1",
+            "representations": [
+                {
+                    "file": "Bin_with_plug_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -184,
+                90,
+                384
+            ],
+            "rotation": [
+                0,
+                4.71,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Bin_plug_2",
+            "representations": [
+                {
+                    "file": "Bin_with_plug_Blue.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -184,
+                97.25,
+                343
+            ],
+            "rotation": [
+                0,
+                4.71,
+                6.11
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Camera_Deposit",
+            "representations": [
+                {
+                    "file": "Camera_deposit_with_structure.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                92,
+                0,
+                468
+            ],
+            "rotation": [
+                0,
+                4.71,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Kit_RFID_reader",
+            "representations": [
+                {
+                    "file": "RFID_reader.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                92,
+                71.5,
+                483
+            ],
+            "rotation": [
+                0,
+                4.71,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Kit_empty_1",
+            "representations": [
+                {
+                    "file": "Kit_empty.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                61,
+                74,
+                490
+            ],
+            "rotation": [
+                0,
+                4.71,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Kit_empty_2",
+            "representations": [
+                {
+                    "file": "Kit_empty.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                61,
+                74,
+                400
+            ],
+            "rotation": [
+                0,
+                4.71,
+                0
+            ],
+            "placementRelTo": "building"
+        }
+    ]
+}
