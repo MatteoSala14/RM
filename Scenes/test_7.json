@@ -42,7 +42,8 @@
         "Bin_pilllar_3",
         "Bin_plug_1",
         "Bin_plug_2",
-        "Camera_Deposit",
+        "Camera_Deposit_1",
+        "Camera_Deposit_2",
         "Kit_RFID_reader",
         "Kit_empty_1",
         "Kit_empty_2"
@@ -786,7 +787,7 @@
             "placementRelTo": "building"
         },
         {
-            "id": "Camera_Deposit",
+            "id": "Camera_Deposit_1",
             "representations": [
                 {
                     "file": "Camera_deposit_with_structure.glb",
@@ -801,6 +802,26 @@
             "rotation": [
                 0,
                 4.71,
+                0
+            ],
+            "placementRelTo": "building"
+        },
+        {
+            "id": "Camera_Deposit_2",
+            "representations": [
+                {
+                    "file": "Camera_deposit_with_structure.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                8.6,
+                0,
+                359
+            ],
+            "rotation": [
+                0,
+                0,
                 0
             ],
             "placementRelTo": "building"
