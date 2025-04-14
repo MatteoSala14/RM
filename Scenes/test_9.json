@@ -88,18 +88,18 @@
             "id": "Robot_rail",
             "representations": [
                 {
-                    "file": "Track.KUKA.glb",
+                    "file": "Track.KUKAWhite.glb",
                     "unit": 1
                 }
             ],
             "position": [
-                6,
-                40,
-                464
+                -106,
+                0,
+                485
             ],
             "rotation": [
                 0,
-                3.14,
+                0,
                 0
             ],
             "placementRelTo": "building"
